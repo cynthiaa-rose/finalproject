@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>All Food Mart</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Cynthia Eskildsen">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;800&display=swap');
+    </style>
+</head>
+    <body>
+        <a href="#main-content" id="skip">Skip to Main Content</a>
+        <header>
+        <h1>All Food Mart</h1>
+        <nav>
+            
+            <section id="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                </svg>
+            </section>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Weekly Ad</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Coupons</a></li>
+                <li><a href="#">Coupon Club</a></li>
+                
+            </ul>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="6" cy="19" r="2" />
+                <circle cx="17" cy="19" r="2" />
+                <path d="M17 17h-11v-14h-2" />
+                <path d="M6 5l14 1l-1 7h-13" />
+            </svg>
+        </nav>
+        </header>
+        
+        <main>
+            <section id="advertisement">
+                <h2>Weekly Advertisement</h2>
+                <p>This week’s specials are just in time for back to school. Everything you need to get the kids ready for their first day-- from school supplies to healthy lunches.</p>
+                <button>View Weekly Ad</button>
+            </section>
+            
+            
+            <h3>Shop Categories</h3>
+
+            <section id="categories">
+                <div class="meat">
+                    <img src="meat.jpg" alt="red meat on a wooden board with spices sprinkled around it on a wooden table">
+                    <h4>Meat</h4>
+                </div>
+
+                <div class="seafood">
+                    <img src="seafood.jpg" alt="white plate of food consisting of salmond, mashed potatoes, caulliflower, carrots, gravy, and other greens">
+                    <h4>Seafood</h4>
+                </div>
+
+                <div class="dairy">
+                    <img src="dairy.jpg" alt="glass of milk inbetween a bowl of eggs and milk carton on a wooden countertop">
+                    <h4>Dairy</h4>
+                </div>
+
+                <div class="produce">
+                    <img src="produce.jpg" alt="sliced apples on a wooden table beside a knife, jar of honey, and sliced apples in a cup">
+                    <h4>Produce</h4>
+                </div>
+
+                <div class="bakery">
+                    <img src="bakery.jpg" alt="baked muffins in a muffin tin being help by a blue oven mit ontop of a wooden table">
+                    <h4>Bakery</h4>
+                </div>
+
+                <section>
+                    <img src="beverages.jpg" alt="white tea cup with tea and a lemon in it surrounded by sliced lemons on a wooden cutting board, two tea bags, and a lemon in a juicer on a wooden table">
+                    <h4>Beverages</h4>
+                </section>
+            
+            <button>View all</button>
+            </section>
+
+            <section id="coupons">
+                <h3>Coupons</h3>
+                <p>All store coupons are accepted until their expiration date. Don’t miss DOUBLE COUPONS every Tuesday. In-store only.</p>
+
+                <div>
+                    <img src="dressing.png" alt="bottle of American Gourmet orange italian dressing with black cap">
+                    <h4>Salad Dressing</h4>
+                    <h5>Exp. 12/3/2021</h5>
+                    <p>Buy 2, get 2 with coupon</p>
+                    <button>Clip</button>
+                </div>
+
+                <div>
+                    <img src="honey.jpeg" alt="jar of orange American Gourmet honey with a yellow lid">
+                    <h4>Honey</h4>
+                    <h5>Exp. 1/3/2022</h5>
+                    <p>Save $0.35</p>
+                    <button>Clip</button>
+                </div>
+
+                <div>
+                    <img src="marinara.jpeg" alt="glass jar of red Bertolli marinara sauce with a gold lid">
+                    <h4>Marinara</h4>
+                    <h5>Exp. 12/3/2021</h5>
+                    <p>Buy 1, get 1. Mix and match.</p>
+                    <button>Clip</button>
+                </div>
+
+                <div>
+                    <img src="mustard.png" alt="bottle of yellow American Gourmet mustard">
+                    <h4>Mustard</h4>
+                    <h5>Exp. 12/31/2021</h5>
+                    <p>Save $1.00 on 48oz. Size. Limit 1 per customer</p>
+                    <button>Clip</button>
+                </div>
+
+            </section>
+            
+            <section id="club">
+                <h3>Coupon Club</h3>
+                <form>
+                    <label for="firstName">First name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name">
+
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                
+                    <label for="email">Email address</label>
+                    <input type="text" name="email" id="email" placeholder="Email Address">
+                    
+                    <button>Sign Up</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>123 Mockup Street<br>
+            San Francisco, CA 10000<br>
+            (555) 555-5555</p>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+          </svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+          </svg>
+        </footer>
+        
+    </body>
+</html>
